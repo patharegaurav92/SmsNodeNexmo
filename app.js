@@ -8,8 +8,8 @@ const app = express();
 
 // Init Nexmo
 const nexmo = new Nexmo({
-    apiKey: '2acae28f',
-    apiSecret: '3RpBYbRJIKbcPjHJ'
+    apiKey: 'your api key goes here',
+    apiSecret: 'your api secret key goes here'
   }, {debug: true});
 
 //Template engine setup
